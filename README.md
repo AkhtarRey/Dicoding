@@ -1,5 +1,13 @@
-# Belajar Analisis Data dengan Python
+# Dicoding Collection Dashboard ✨
 
-## Proyek Akhir
+## Setup environment
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
 
-Proyek akhir belajar analisis data dengan python di Dicoding, mencakup Data Wrangling, Exploratory Data Analysis (EDA), dan Visualization and Exploratory Analysis.
+## Run steamlit app
+```
+streamlit run streamlit-app.py
+```
